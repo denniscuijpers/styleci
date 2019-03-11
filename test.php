@@ -4,6 +4,9 @@ namespace Testing\One;
 class TestClass
 {
   public function testMe(){
+      $a = "aa";
+      $ab = "ab";
+    
     $aaa = trim(function(){
       $a = "aa";
       $ab = "ab";
