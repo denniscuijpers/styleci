@@ -12,5 +12,11 @@ class TestClass
       $ab = "ab";
       return $a.$ab;
     });
+    
+    $aaa = function(){
+      $a = "aa";
+      $ab = "ab";
+      return $a.$ab;
+    };
   }
 }
