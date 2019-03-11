@@ -1,16 +1,19 @@
 <?php
+
 namespace Testing\One;
 
-class TestClass
+class test
 {
-  public function testMe(){
-      $a = "aa";
-      $ab = "ab";
-    
-    $aaa = trim(function(){
-      $a = "aa";
-      $ab = "ab";
-      return $a.$ab;
-    });
-  }
+    public function testMe()
+    {
+        $a  = 'aa';
+        $ab = 'ab';
+
+        $aaa = trim(function () {
+            $a = 'aa';
+            $ab = 'ab';
+
+            return $a.$ab;
+        });
+    }
 }
